@@ -21,7 +21,7 @@ public class Ejemplo063 {
         boolean bandera = true;
         String pais;
         String capital;
-        String reporte = "Los paises ingresados son:\n";
+        String reporte = "Los paises y sus capitales ingresados son:\n";
         
         while (bandera == true) {
             System.out.println("ingrese un pais");

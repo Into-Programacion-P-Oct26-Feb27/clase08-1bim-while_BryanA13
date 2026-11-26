@@ -47,5 +47,6 @@ public class Ejemplo065 {
     }
 }
 /*
-
+El error fue en que se cambio de un nextInt a un nextLine sin una limpieza de 
+buffer, pero con un entrada.nextLine se limpia y se arregla el error.
 */
